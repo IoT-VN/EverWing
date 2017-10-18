@@ -1,20 +1,20 @@
 # EverWing
 * ---------HACK KILL BOT 1 HIT-----------(Có thể chỉnh sửa tùy theo nhu cầu)
 
-Ctrl + F tìm this.gameStarted rồi chốt dòng }
-Dòng 72953
-Ta vào Boss Raids rồi vào Fight như bình thường sẽ bị đứng ta vào console nhập lệnh : this.bossRaidDamage = 999999999
+>Ctrl + F tìm this.gameStarted rồi chốt dòng }
+>Dòng 72953
+>Ta vào Boss Raids rồi vào Fight như bình thường sẽ bị đứng ta vào console nhập lệnh : this.bossRaidDamage = 999999999
 
 * ---------RESET BOT -----------
-Date.prototype.getTime = function() { return 1496746800000.00 };
+>Date.prototype.getTime = function() { return 1496746800000.00 };
 ---------MAX CẤP ĐỘ LV 50-----------(Có thể chỉnh sửa tăng hoặc giảm cấp..)
-GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
-playerXP : 5000000,
-killedBy: null,
-secondsElapsed: null,
-playerID: null,
-background: null}
-]);
+>GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
+>playerXP : 5000000,
+>killedBy: null,
+>secondsElapsed: null,
+>playerID: null,
+>background: null}
+>]);
 * --------Mở Khóa Toàn Bộ Nhân Vật-----------
 var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
 for (var i = 0; i < names.length; i++) {
