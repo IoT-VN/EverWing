@@ -8,32 +8,32 @@
 * ---------RESET BOT -----------
 > Date.prototype.getTime = function() { return 1496746800000.00 };
 * ---------MAX CẤP ĐỘ LV 50-----------(Có thể chỉnh sửa tăng hoặc giảm cấp..)
->GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
->playerXP : 5000000,
->killedBy: null,
->secondsElapsed: null,
->playerID: null,
->background: null}
->]);
+> GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
+> playerXP : 5000000,
+> killedBy: null,
+> secondsElapsed: null,
+> playerID: null,
+> background: null}
+> ]);
 * --------Mở Khóa Toàn Bộ Nhân Vật-----------
-var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
-for (var i = 0; i < names.length; i++) {
-if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
-GC.app.client.runFunction("unlockCharacter",{characterName: names[i], isFree: true});
-}
+> var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
+> for (var i = 0; i < names.length; i++) {
+> if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
+> GC.app.client.runFunction("unlockCharacter",{characterName: names[i], isFree: true});
+> }
 * --------Max Huân Chương-----------
-t = GC.app.mvc.models.GameModel.trophies;
-for(t; t<99999; t++){
-t = t + 2000;
-GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
-playerXP : null,
-killedBy: null,
-secondsElapsed: null,
-playerID: null,
-background: null,
-premiumEarned: 2000}
-]);
-}
+> t = GC.app.mvc.models.GameModel.trophies;
+> for(t; t<99999; t++){
+> t = t + 2000;
+> GC.app.mvc.commandMap.GamePlayedCommand.prototype.execute.apply({mvc :window.GC.app.mvc, finishCommand : function(e, $){}}, [{
+> playerXP : null,
+> killedBy: null,
+> secondsElapsed: null,
+> playerID: null,
+> background: null,
+> premiumEarned: 2000}
+> ]);
+> }
 * ---------Max Tiền-----------(Có thể tăng hoặc giảm)
 GC.app.client.runFunction("addCurrency", { currency: "coins", count: 999999});
 * ---------Mở Trứng Mà Không Cần Mua-----------
