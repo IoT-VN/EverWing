@@ -1,5 +1,5 @@
 # EverWing
-* ---------HACK KILL BOT 1 HIT-----------(Có thể chỉnh sửa tùy theo nhu cầu)
+* #HACK KILL BOT 1 HIT (Có thể chỉnh sửa tùy theo nhu cầu)
 
 >Ctrl + F tìm this.gameStarted rồi chốt dòng }
 >Dòng 72953
